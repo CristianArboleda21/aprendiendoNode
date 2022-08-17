@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+
+    <header>
+        <%- include('../partials/navbar'); %>
+    </header>
+
+    <main>
+        <div>
+            <h1>Esta es la pagina de inicio</h1>
+        </div>
+        <div id="formulario">
+            <form action="">
+                <label for="">Nombre</label><br>
+                <input type="text" ><br><br>
+
+                <label for="">Cedula</label><br>
+                <input type="text" placeholder="123..."><br><br>
+
+                <button type="submit">Guardar</button><br><br>
+            </form>
+        </div>
+
+        <div id="for">
+            <% for(let i=0; i < 5; i++){%>
+
+                <h3>Hola <%=i%></h3>
+
+            <%}%>
+        </div>
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>

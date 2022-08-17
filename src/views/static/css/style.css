@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    background-color: red;
+}
+
+#error{
+    background-color: aqua;
+}
+
+#formulario, h1{
+    text-align: center;
+}
+
+#for{
+    text-align: center;
+}
